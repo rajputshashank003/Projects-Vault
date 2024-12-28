@@ -18,7 +18,7 @@ function ReviewComponent() {
     return (
         <div className='flex flex-col max-md:p-8 justify-center items-center min-h-screen h-fit bg-neutral-900'>
             <div className='w-[80%] grid grid-cols-2 max-md:flex max-md:flex-col gap-20 text-4xl '>
-                <div className='col-span-1 relative h-80 w-[110%]'>
+                <div className='col-span-1 relative h-80 w-full '>
                     <Link to={data[active].link ?? "/"}>
                         <AnimatePresence>
                         {
