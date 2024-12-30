@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { IconArrowLeft, IconArrowRight } from '@tabler/icons-react';
 import { AnimatePresence, motion } from "framer-motion";
 import TypingEffect from './TypingEffect';
@@ -14,6 +14,20 @@ function ReviewComponent() {
         setActive(prev => (prev - 1 + data.length) % data.length);
     }
     const randomRotate = () => Math.floor(Math.random() * 21) - 10;
+
+    useEffect(() => {
+        const handleKeyDown = (event) => {
+            if (event.key === 'ArrowLeft') {
+                handlePrev();
+            } else if (event.key === 'ArrowRight') {
+                handleNext();
+            }
+        };
+        window.addEventListener('keydown', handleKeyDown);
+        return () => {
+            window.removeEventListener('keydown', handleKeyDown);
+        };
+    }, []);
 
     return (
         <div className='flex flex-col max-md:p-8 justify-center items-center min-h-screen h-fit bg-neutral-900'>
@@ -51,7 +65,7 @@ function ReviewComponent() {
                             }}
                             className='absolute w-full inset-0 origin-bottom '
                             >
-                                <img src={el.img} className='rounded-xl h-72 max-md:h-64' />
+                                <img src={el.img} className='rounded-xl object-cover h-72 max-md:h-52' />
                             </motion.div>
                             ))
                         }
@@ -83,8 +97,8 @@ function ReviewComponent() {
                             </div>
                         </Link>
                         <div className='flex justify-center gap-16 w-full mt-10'>
-                            <IconArrowLeft onClick={handlePrev} color='white' className="bg-gray-400 h-8 hover:scale-110 duration-150 rotate-[20deg] w-8 p-1 rounded-full cursor-pointer" />
-                            <IconArrowRight onClick={handleNext} color='white' className="bg-gray-400 h-8 hover:scale-110 duration-150 rotate-[-20deg] w-8 p-1 rounded-full cursor-pointer" />
+                            <IconArrowLeft onClick={handlePrev} color='white' className="bg-gray-400 h-8 hover:scale-110 duration-150 w-8 p-1 rounded-full cursor-pointer" />
+                            <IconArrowRight onClick={handleNext} color='white' className="bg-gray-400 h-8 hover:scale-110 duration-150 w-8 p-1 rounded-full cursor-pointer" />
                         </div>
                     </motion.div>
                 </div>

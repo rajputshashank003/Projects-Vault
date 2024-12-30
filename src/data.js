@@ -26,6 +26,18 @@ export const data = [
     img : "/FloatingDock.png",
     title : "FloatingDock",
     link : "https://floatingdock.vercel.app",
-    description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rerum dolores non aut eius quasi dolorum accusamus hic provident fuga saepe dignissimos, aliquid ullam quas, nostrum voluptate. Dolore, neque sit!"
+    description : "A floating dock mac os style component, acts as a navigation bar."
+  },
+  {
+    img : "/elasticgsap.png",
+    title : "Elastic GSAP",
+    link : "https://elasticgsap.vercel.app",
+    description : "This website is inspired by wethinkelastic.com"
+  },
+  {
+    img : "/weathermap.png",
+    title : "Weather Map",
+    link : "https://awm1.netlify.app",
+    description : "A sleek weather web app with interactive maps, allowing users to explore and get real-time weather updates by tapping anywhere on the map or by search."
   }
 ]
