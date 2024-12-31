@@ -30,7 +30,7 @@ function ReviewComponent() {
     }, []);
 
     return (
-        <div className='flex flex-col max-md:p-8 justify-center items-center min-h-screen h-fit bg-neutral-900'>
+        <div className='flex flex-col max-md:p-8 justify-center items-center min-h-screen h-fit bg-neutral-900 relative'>
             <div className='w-[80%] grid grid-cols-2 max-md:flex max-md:flex-col gap-20 text-4xl '>
                 <div className='col-span-1 relative h-80 w-full '>
                     <Link to={data[active].link ?? "/"}>
@@ -102,6 +102,9 @@ function ReviewComponent() {
                         </div>
                     </motion.div>
                 </div>
+            </div>
+            <div className='text-sm text-neutral-500 absolute max-md:bottom-0 bottom-5'>
+                <span className='relative top-1 text-2xl'>*</span>Tap the image to explore more!
             </div>
         </div>
     )
