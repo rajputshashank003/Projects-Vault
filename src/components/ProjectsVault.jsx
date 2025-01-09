@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { IconArrowLeft, IconArrowRight } from '@tabler/icons-react';
 import { AnimatePresence, motion } from "framer-motion";
 import TypingEffect from './TypingEffect.jsx';
-import {data} from "./data.js";
+import {data} from "../data.js";
 import { Link } from "react-router-dom";
 
 function ReviewComponent() {

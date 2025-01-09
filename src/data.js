@@ -12,11 +12,6 @@ export const data = [
     description : "Welcome to the Airbnb Clone project, a web application built to replicate key features of Airbnb using EJS for the frontend, Node.js and Express.js for the backend, MongoDB for the database, Cloudinary for saving image data and Bing Maps API to display listing locations."
   },
   {
-    img : "https://images.unsplash.com/photo-1498887960847-2a5e46312788?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww",
-    title : "Speed",
-    description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rerum dolores non aut eius quasi dolorum accusamus hic provident fuga saepe dignissimos, aliquid ullam quas, nostrum voluptate. Dolore, neque sit!"
-  },
-  {
     img : "/Foodybro.png",
     title : "FoodyBro",
     link : "https://foodybro.vercel.app",
