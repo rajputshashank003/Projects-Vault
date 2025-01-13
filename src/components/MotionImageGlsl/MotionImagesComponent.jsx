@@ -30,11 +30,11 @@ const MotionImagesComponent = () => {
                 </div>
             </div>
             <div className="links col-span-1 w-full flex justify-center items-start flex-col gap-10">
-                <Link to="https://chessv.netlify.app" className='transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl max-sm:text-5xl tracking-normal'>
+                <Link to="" className='transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl max-sm:text-5xl tracking-normal'>
                     <small className='sm:text-xl text-lg mx-2'>01.</small>
                     ChessV
                 </Link>
-                <Link to="https://foodybro.vercel.app" className='transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl max-sm:text-5xl tracking-normal'>
+                <Link to="" className='transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl max-sm:text-5xl tracking-normal'>
                     <small className='sm:text-xl text-lg mx-2'>02.</small>
                     foodyBro
                 </Link>
