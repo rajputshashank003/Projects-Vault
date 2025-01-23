@@ -6,6 +6,12 @@ export const data = [
     description : "ChessV is an online chess game build using React, Node.js, chess.js library , Socket.io for real-time gameplay and webRTC for calling.",
   },
   {
+    img : "/justdoswap.png",
+    title : "Just Do Swap",
+    link : "https://justdoswap.vercel.app",
+    description : "JustDoSwap is a blockchain-based web app that enables users to seamlessly swap tokens like Solana to USDC, ensuring secure and efficient transactions."
+  },
+  {
     img : "https://github.com/rajputshashank003/Airbnb-MajorProject/raw/main/image.png",
     title : "Airbnb",
     link : "https://1airbnb.vercel.app",
