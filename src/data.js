@@ -1,15 +1,27 @@
 export const data = [
   {
-    img : "https://github.com/rajputshashank003/Chess.v.0.2.1/blob/main/image.png?raw=true",
-    title : "ChessV",
-    link : "https://chessv.netlify.app",
-    description : "ChessV is an online chess game build using React, Node.js, chess.js library , Socket.io for real-time gameplay and webRTC for calling.",
-  },
-  {
     img : "/justdoswap.png",
     title : "Just Do Swap",
     link : "https://justdoswap.vercel.app",
     description : "JustDoSwap is a blockchain-based web app that enables users to seamlessly swap tokens like Solana to USDC, ensuring secure and efficient transactions."
+  },
+  {
+    img : "https://pbs.twimg.com/media/GiSsDCIb0AApN2V?format=jpg&name=large",
+    title : "Just Token",
+    link : "https://justtoken.vercel.app",
+    description : "Just Token is a blockchain-based web app that enables users to seamlessly create coins like Bonk coin etc."
+  },
+  {
+    img : "/elasticgsap.png",
+    title : "Elastic GSAP",
+    link : "https://elasticgsap.vercel.app",
+    description : "This website is inspired by wethinkelastic.com"
+  },
+  {
+    img : "https://github.com/rajputshashank003/Chess.v.0.2.1/blob/main/image.png?raw=true",
+    title : "ChessV",
+    link : "https://chessv.netlify.app",
+    description : "ChessV is an online chess game build using React, Node.js, chess.js library , Socket.io for real-time gameplay and webRTC for calling.",
   },
   {
     img : "https://github.com/rajputshashank003/Airbnb-MajorProject/raw/main/image.png",
@@ -28,12 +40,6 @@ export const data = [
     title : "FloatingDock",
     link : "https://floatingdock.vercel.app",
     description : "A floating dock mac os style component, acts as a navigation bar."
-  },
-  {
-    img : "/elasticgsap.png",
-    title : "Elastic GSAP",
-    link : "https://elasticgsap.vercel.app",
-    description : "This website is inspired by wethinkelastic.com"
   },
   {
     img : "/weathermap.png",

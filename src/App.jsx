@@ -7,11 +7,11 @@ import Title from './components/Title.jsx'
 export default function App() {
   
   return (
-    <div className='relative p-1 bg-neutral-900'>
+    <div className='relative w-[99.9%] overflow-hidden flex flex-col bg-neutral-900'>
       <Title/>
       <ProjectsVault/>
       <MotionImagesComponent/>
-      <div className='mb-4 mx-4'>
+      <div className='flex justify-center items-center mb-4'>
         <Footer/>
       </div>
     </div>
