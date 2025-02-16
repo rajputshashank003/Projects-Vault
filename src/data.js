@@ -12,16 +12,16 @@ export const data = [
     description : "Just Token is a blockchain-based web app that enables users to seamlessly create coins like Bonk coin etc."
   },
   {
-    img : "/elasticgsap.png",
-    title : "Elastic GSAP",
-    link : "https://elasticgsap.vercel.app",
-    description : "This website is inspired by wethinkelastic.com"
-  },
-  {
     img : "https://github.com/rajputshashank003/Chess.v.0.2.1/blob/main/image.png?raw=true",
     title : "ChessV",
     link : "https://chessv.netlify.app",
     description : "ChessV is an online chess game build using React, Node.js, chess.js library , Socket.io for real-time gameplay and webRTC for calling.",
+  },
+  {
+    img : "/elasticgsap.png",
+    title : "Elastic GSAP",
+    link : "https://elasticgsap.vercel.app",
+    description : "This website is inspired by wethinkelastic.com"
   },
   {
     img : "https://github.com/rajputshashank003/Airbnb-MajorProject/raw/main/image.png",
@@ -36,10 +36,10 @@ export const data = [
     description : "A comprehensive food ordering application built using the MERN stack. The app allows users to browse various food items, add them to the cart, proceed with checkout, and manage their profiles.",
   },
   {
-    img : "/FloatingDock.png",
-    title : "FloatingDock",
-    link : "https://floatingdock.vercel.app",
-    description : "A floating dock mac os style component, acts as a navigation bar."
+    img : "/dsa-tutors.png",
+    title : "AI DSA Tutor",
+    link : "https://dsa-tutors.vercel.app",
+    description : "DSA Turors is a website where people can learn about dsa from AI."
   },
   {
     img : "/weathermap.png",

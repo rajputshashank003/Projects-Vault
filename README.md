@@ -1,8 +1,20 @@
-# React + Vite
+# 🚀 Projects Vault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Projects Vault** is a web application that showcases all my projects in one place, allowing users to explore details about each project effortlessly.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[👉 Visit Projects Vault](https://projectsvault.vercel.app)
+
+## 📌 Features
+
+- 📂 **Project Listings** – View all projects with descriptions, technologies used, and GitHub links.
+- 🎨 **Interactive UI** – Smooth animations and modern design for a great user experience.
+- 🌐 **Responsive Design** – Optimized for desktop and mobile devices.
+
+## 📸 Screenshots
+
+![Homepage Preview](/public/website.png)
+---
+
+🔥 *Explore my projects and get inspired!*
