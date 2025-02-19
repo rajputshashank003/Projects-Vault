@@ -97,13 +97,13 @@ const ProjectsAnimation = () => {
                     <div className={'absolute opacity-1 p-2 h-fit w-fit backdrop-blur-[1px] img_' + 0 + '_text bottom-0 right-0 text-[4rem] max-sm:text-[2rem] text-white font-bold'}>
                         <Link to={data[0].link}>
                             {data[0].title} 
+                            <div className="text-[1rem] max-sm:hidden max-sm:text-[1rem]  bg-zinc-400 p-4 rounded-xl bg-opacity-[0.7] text-zinc-800 w-1/2">
+                                {data[0].description}
+                            </div>
+                            <div className="text-[1rem] sm:hidden max-sm:text-[1rem]  bg-zinc-400 p-4 rounded-xl bg-opacity-[0.7] text-zinc-800 w-1/2">
+                                Web app to swap crypto coins like USTC to solana etc.
+                            </div>
                         </Link>
-                        <div className="text-[1rem] max-sm:hidden max-sm:text-[1rem]  bg-zinc-400 p-4 rounded-xl bg-opacity-[0.7] text-zinc-800 w-1/2">
-                            {data[0].description}
-                        </div>
-                        <div className="text-[1rem] sm:hidden max-sm:text-[1rem]  bg-zinc-400 p-4 rounded-xl bg-opacity-[0.7] text-zinc-800 w-1/2">
-                            Web app to swap crypto coins like USTC to solana etc.
-                        </div>
                     </div>
                 </div>
                 <div data-scroll data-scroll-speed=".2" className='shadow-[0px_-2px_5px_rgba(255,255,255,0.5)] rounded-t-[2rem] overflow-hidden relative h-screen w-[screen]'>
@@ -111,13 +111,13 @@ const ProjectsAnimation = () => {
                     <div className={'absolute opacity-1 h-fit p-2 w-1/2 backdrop-blur-[1px] img_' + 5 + '_text bottom-0  right-0 text-[4rem] max-sm:text-[2rem] text-zinc-900 font-bold'}>
                         <Link to={data[5].link}>
                             {data[5].title} 
+                            <div className="text-[1rem] max-sm:hidden max-sm:text-[1rem] bg-zinc-800 p-4 rounded-xl bg-opacity-[0.7] text-zinc-200">
+                                {data[5].description}
+                            </div>
+                            <div className="text-[1rem] sm:hidden max-sm:text-[1rem] bg-zinc-800 p-4 rounded-xl bg-opacity-[0.7] text-zinc-200">
+                                Food ordering web application from selection to ordering food and can use Solana to pay bills.
+                            </div>
                         </Link>
-                        <div className="text-[1rem] max-sm:hidden max-sm:text-[1rem] bg-zinc-800 p-4 rounded-xl bg-opacity-[0.7] text-zinc-200">
-                            {data[5].description}
-                        </div>
-                        <div className="text-[1rem] sm:hidden max-sm:text-[1rem] bg-zinc-800 p-4 rounded-xl bg-opacity-[0.7] text-zinc-200">
-                            Food ordering web application from selection to ordering food and can use Solana to pay bills.
-                        </div>
                     </div>
                 </div>
                 <div data-scroll data-scroll-speed="-.1" className='shadow-[0px_-2px_5px_rgba(255,255,255,0.5)] rounded-t-[2rem] overflow-hidden relative h-screen w-[screen]'>
@@ -125,13 +125,13 @@ const ProjectsAnimation = () => {
                     <div className={'absolute opacity-1 h-fit p-2 w-fit backdrop-blur-[1px] img_' + 2 + '_text bottom-0 right-0 text-[4rem] max-sm:text-[2rem] text-white font-bold'}>
                         <Link to={data[2].link}>
                             {data[2].title} 
+                            <div className="text-[1rem] max-sm:hidden max-sm:text-[1rem]  bg-zinc-400 p-4 rounded-xl bg-opacity-[0.7] text-zinc-800 text-zinc-400 w-1/2">
+                                {data[2].description}
+                            </div>
+                            <div className="text-[1rem] sm:hidden max-sm:text-[1rem]  bg-zinc-400 p-4 rounded-xl bg-opacity-[0.7] text-zinc-800 text-zinc-400 w-1/2">
+                                Play chess game, can connect with opponent with audio and video call, can play bet games using cryto.
+                            </div>
                         </Link>
-                        <div className="text-[1rem] max-sm:hidden max-sm:text-[1rem]  bg-zinc-400 p-4 rounded-xl bg-opacity-[0.7] text-zinc-800 text-zinc-400 w-1/2">
-                            {data[2].description}
-                        </div>
-                        <div className="text-[1rem] sm:hidden max-sm:text-[1rem]  bg-zinc-400 p-4 rounded-xl bg-opacity-[0.7] text-zinc-800 text-zinc-400 w-1/2">
-                            Play chess game, can connect with opponent with audio and video call, can play bet games using cryto.
-                        </div>
                     </div>
                 </div>
             </div>
