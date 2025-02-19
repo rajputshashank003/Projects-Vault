@@ -98,8 +98,11 @@ const ProjectsAnimation = () => {
                         <Link to={data[0].link}>
                             {data[0].title} 
                         </Link>
-                        <div className="text-[1rem] max-sm:text-[1rem] text-zinc-400 w-1/2">
+                        <div className="text-[1rem] max-sm:hidden max-sm:text-[1rem]  bg-zinc-400 p-4 rounded-xl bg-opacity-[0.7] text-zinc-800 w-1/2">
                             {data[0].description}
+                        </div>
+                        <div className="text-[1rem] sm:hidden max-sm:text-[1rem]  bg-zinc-400 p-4 rounded-xl bg-opacity-[0.7] text-zinc-800 w-1/2">
+                            Web app to swap crypto coins like USTC to solana etc.
                         </div>
                     </div>
                 </div>
@@ -109,8 +112,11 @@ const ProjectsAnimation = () => {
                         <Link to={data[5].link}>
                             {data[5].title} 
                         </Link>
-                        <div className="text-[1rem] max-sm:text-[1rem] bg-zinc-800 p-4 rounded-xl bg-opacity-[0.7] text-zinc-200">
+                        <div className="text-[1rem] max-sm:hidden max-sm:text-[1rem] bg-zinc-800 p-4 rounded-xl bg-opacity-[0.7] text-zinc-200">
                             {data[5].description}
+                        </div>
+                        <div className="text-[1rem] sm:hidden max-sm:text-[1rem] bg-zinc-800 p-4 rounded-xl bg-opacity-[0.7] text-zinc-200">
+                            Food ordering web application from selection to ordering food and can use Solana to pay bills.
                         </div>
                     </div>
                 </div>
@@ -120,8 +126,11 @@ const ProjectsAnimation = () => {
                         <Link to={data[2].link}>
                             {data[2].title} 
                         </Link>
-                        <div className="text-[1rem] max-sm:text-[1rem] text-zinc-400 w-1/2"> max-sm:text-[0.5rem]
+                        <div className="text-[1rem] max-sm:hidden max-sm:text-[1rem]  bg-zinc-400 p-4 rounded-xl bg-opacity-[0.7] text-zinc-800 text-zinc-400 w-1/2">
                             {data[2].description}
+                        </div>
+                        <div className="text-[1rem] sm:hidden max-sm:text-[1rem]  bg-zinc-400 p-4 rounded-xl bg-opacity-[0.7] text-zinc-800 text-zinc-400 w-1/2">
+                            Play chess game, can connect with opponent with audio and video call, can play bet games using cryto.
                         </div>
                     </div>
                 </div>
