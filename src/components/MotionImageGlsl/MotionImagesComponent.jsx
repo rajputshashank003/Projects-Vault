@@ -1,4 +1,3 @@
-import { IconCross, IconX } from '@tabler/icons-react'
 import React, { useEffect, useRef } from 'react'
 import MotionImages from './MotionImages.js';
 import { Link } from 'react-router-dom';

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { IconArrowLeft, IconArrowRight } from '@tabler/icons-react';
 import { AnimatePresence, motion } from "framer-motion";
 import TypingEffect from './TypingEffect.jsx';
 import {data} from "../data.js";
@@ -30,7 +29,7 @@ function ReviewComponent() {
     }, []);
 
     return (
-        <div className='flex flex-col max-md:p-8 justify-center items-center min-h-screen h-fit bg-neutral-900 relative'>
+        <div className='flex flex-col max-md:p-8 justify-center items-center min-h-screen h-fit bg-zinc-950 relative'>
             <div className='w-[80%] grid grid-cols-2 max-md:flex max-md:flex-col gap-20 text-4xl '>
                 <div className='col-span-1 relative h-80 w-full '>
                     <Link to={data[active].link ?? "/"}>
@@ -97,8 +96,8 @@ function ReviewComponent() {
                             </div>
                         </Link>
                         <div className='flex justify-center gap-16 w-full mt-10'>
-                            <IconArrowLeft onClick={handlePrev} color='white' className="bg-gray-400 h-8 hover:scale-110 duration-150 w-8 p-1 rounded-full cursor-pointer" />
-                            <IconArrowRight onClick={handleNext} color='white' className="bg-gray-400 h-8 hover:scale-110 duration-150 w-8 p-1 rounded-full cursor-pointer" />
+                            <div onClick={handlePrev} color='white' className="bg-gray-400 h-8 hover:scale-110 duration-150 w-8 p-1 flex justify-center items-center rounded-full cursor-pointer" >{"<"}</div>
+                            <div onClick={handleNext} color='white' className="bg-gray-400 h-8 hover:scale-110 duration-150 w-8 p-1 flex justify-center items-center rounded-full cursor-pointer" > {">"} </div>
                         </div>
                     </motion.div>
                 </div>
