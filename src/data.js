@@ -1,5 +1,11 @@
 export const data = [
   {
+    img : "/ratsi.png",
+    title : "RATSI - AI Tutor",
+    link : "https://ratsi.vercel.app",
+    description : "RATSI - AI Turor is a website where people can learn about dsa from AI."
+  },
+  {
     img : "/justdoswap.png",
     title : "Just Do Swap",
     link : "https://justdoswap.vercel.app",
@@ -34,12 +40,6 @@ export const data = [
     title : "FoodyBro",
     link : "https://foodybro.vercel.app",
     description : "A comprehensive food ordering application built using the MERN stack. The app allows users to browse various food items, add them to the cart, proceed with checkout, and manage their profiles.",
-  },
-  {
-    img : "/dsa-tutors.png",
-    title : "AI DSA Tutor",
-    link : "https://dsa-tutors.vercel.app",
-    description : "DSA Turors is a website where people can learn about dsa from AI."
   },
   {
     img : "/weathermap.png",
