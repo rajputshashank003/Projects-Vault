@@ -91,7 +91,7 @@ const ProjectsAnimation = () => {
     });
     
     return (
-        <>
+        <div className='relative'>
         <div className="absolute h-screen side_bar rounded-xl rounded-tr-none rounded-br-none w-16 max-sm:w-12 top-0 flex flex-col justify-center items-center px-4 font-bold text-3xl -right-20 bg-yellow-400 z-[99999]">
             P R O J E C T S
         </div>
@@ -141,7 +141,7 @@ const ProjectsAnimation = () => {
                 </div>
             </div>
         </div>
-        </>
+        </div>
     )
 }
 
