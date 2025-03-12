@@ -12,8 +12,8 @@ const ProjectsAnimation = () => {
     const navigate = useNavigate();
     
     const ind_1 = 1;
-    const ind_2 = 6;
-    const ind_3 = 3;
+    const ind_2 = 7;
+    const ind_3 = 4;
 
     useGSAP(() => {
         gsap.to(".projects_animation_box", {

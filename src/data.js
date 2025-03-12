@@ -1,5 +1,11 @@
 export const data = [
   {
+    img : "/yourblogs.jpg",
+    title : "Your Blogs",
+    link : "https://yourblogs1.vercel.app",
+    description : "Your Blogs is website where you can read blogs and know about new tech."
+  },
+  {
     img : "/ratsi.png",
     title : "RATSI - AI Tutor",
     link : "https://ratsi.vercel.app",

@@ -5,6 +5,7 @@ import MotionImagesComponent from './components/MotionImageGlsl/MotionImagesComp
 import CutsAnimation from './components/CutsAnimation.jsx'
 import ProjectsAnimation from './components/ProjectsAnimation.jsx'
 import LocomotiveScroll from 'locomotive-scroll'
+import ProjectCard from './components/ProjectCard/ProjectCard.jsx'
 
 export default function App() {
   
@@ -13,15 +14,15 @@ export default function App() {
   }, []);
 
   return (
-    <div className='relative w-[99.9%] overflow-hidden flex flex-col bg-zinc-950'>
+    <div className='relative w-[99.9%] flex flex-col bg-zinc-950'>
       <div className='relative '>
         <CutsAnimation/>
       </div>
       <div className='relative'>
         <ProjectsAnimation/>
       </div>
-      <div className='relative'>
-        <ProjectsVault/>
+      <div className='relative z-[999999]'>
+        <ProjectCard/>
       </div>
       <MotionImagesComponent/>
       <div className='flex justify-center items-center mb-4'>
