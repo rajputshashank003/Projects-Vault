@@ -12,6 +12,8 @@ const MotionImagesComponent = () => {
             return () => {
                 if (motionImages) {
                     motionImages.renderer.dispose();
+                }
+                if(containerRef.current) {
                     containerRef.current.removeChild(motionImages.renderer.domElement);
                 }
             };
