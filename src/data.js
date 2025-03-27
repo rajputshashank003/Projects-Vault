@@ -7,18 +7,25 @@ export const data = [
     small_description : "ChessV is an online chess game contains features like real-time gameplay , calling etc.",
   },
   {
-    img : "/yourblogs.jpg",
-    title : "Your Blogs",
-    link : "https://yourblogs1.vercel.app",
-    description : "Your Blogs is website where you can read blogs and know about new tech.",
-    small_description : "YourBlogs is website where you can know about new tech."
-  },
-  {
     img : "/ratsi.png",
     title : "RATSI - AI Tutor",
     link : "https://ratsi.vercel.app",
     description : "RATSI - AI Turor is a website where people can learn about dsa from AI.",
     small_description : "RATSI - AI Turor can teach people DSA."
+  },
+  {
+    img : "/Foodybro.png",
+    title : "FoodyBro",
+    link : "https://foodybro.vercel.app",
+    description : "A comprehensive food ordering application built using the MERN stack. The app allows users to browse various food items, add them to the cart, proceed with checkout, and manage their profiles.",
+    small_description : "A comprehensive food ordering application.",
+  },
+  {
+    img : "https://github.com/rajputshashank003/Airbnb-MajorProject/raw/main/image.png",
+    title : "Airbnb",
+    link : "https://1airbnb.vercel.app",
+    description : "Welcome to the Airbnb Clone project, a web application built to replicate key features of Airbnb using EJS for the frontend, Node.js and Express.js for the backend, MongoDB for the database, Cloudinary for saving image data and Bing Maps API to display listing locations.",
+    small_description : "Airbnb Clone project, a web application built to replicate key features of Airbnb."
   },
   {
     img : "/justdoswap.png",
@@ -35,25 +42,18 @@ export const data = [
     small_description : "Just Token is a blockchain-based web app enables users to create coins like Bonk coin etc."
   },
   {
+    img : "/yourblogs.jpg",
+    title : "Your Blogs",
+    link : "https://yourblogs1.vercel.app",
+    description : "Your Blogs is website where you can read blogs and know about new tech.",
+    small_description : "YourBlogs is website where you can know about new tech."
+  },
+  {
     img : "/elasticgsap.png",
     title : "Elastic GSAP",
     link : "https://elasticgsap.vercel.app",
     description : "This website is inspired by wethinkelastic.com",
     small_description : "This website is inspired by wethinkelastic.com"
-  },
-  {
-    img : "https://github.com/rajputshashank003/Airbnb-MajorProject/raw/main/image.png",
-    title : "Airbnb",
-    link : "https://1airbnb.vercel.app",
-    description : "Welcome to the Airbnb Clone project, a web application built to replicate key features of Airbnb using EJS for the frontend, Node.js and Express.js for the backend, MongoDB for the database, Cloudinary for saving image data and Bing Maps API to display listing locations.",
-    small_description : "Airbnb Clone project, a web application built to replicate key features of Airbnb."
-  },
-  {
-    img : "/Foodybro.png",
-    title : "FoodyBro",
-    link : "https://foodybro.vercel.app",
-    description : "A comprehensive food ordering application built using the MERN stack. The app allows users to browse various food items, add them to the cart, proceed with checkout, and manage their profiles.",
-    small_description : "A comprehensive food ordering application.",
   },
   {
     img : "/weathermap.png",
@@ -64,4 +64,6 @@ export const data = [
   }
 ]
 
-export const projects = [0,7,2];
+export const fullstack = [0,1,2,3];
+export const web3 = [4,5];
+export const design = [6,7,8];

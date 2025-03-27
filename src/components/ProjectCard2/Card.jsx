@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom';
-import { useMotionValue } from 'framer-motion';
+import { motion, useMotionValue } from 'framer-motion';
 import gsap from 'gsap';
 
 const Card = ({pr}) => {
@@ -37,7 +37,7 @@ const Card = ({pr}) => {
             </div>
             <div onMouseMove={handleMouseEnter1} onMouseLeave={handleMouseLeave1} ref={parRef} className='h-[25rem] div1 bg-gradient-to-d from-black to-zinc-900 max-w-80 rounded-xl relative flex flex-col gap-4 border overflow-hidden p-4 cursor-pointer group border-zinc-500'>
                 <div className='h-[15rem] duration-300 sm:h-[18rem] relative rounded-[5px] w-68 overflow-hidden'>
-                    <img src={pr.img} className='object-cover duration-300 group-hover:h-full group-hover:w-full h-[110%] w-[120%]' alt="" />
+                    <motion.img data-scroll data-scroll-speed="0.05" src={pr.img} className='object-cover duration-300 group-hover:h-full group-hover:w-full h-[110%] w-[120%]' alt="" />
                 </div>
                 <div className="relative">
                     <div className="name uppercase text-[1.4rem] font-bold text-zinc-200">
