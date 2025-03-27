@@ -4,6 +4,7 @@ import { data , fullstack } from '../../data';
 import DesignTitle from './DesignTitle';
 import { useNavigate } from 'react-router-dom';
 import Magnet from '../Magnet/Magnet';
+import MotionImagesComponent from '../MotionImageGlsl/MotionImagesComponent.jsx'
 
 const FullStack = () => {
     const navigate = useNavigate();
@@ -36,6 +37,7 @@ const FullStack = () => {
                     <Card pr={data[ind]} key={ind} />
                 ))}
             </div>
+            <MotionImagesComponent/>
         </div>
     )
 }
