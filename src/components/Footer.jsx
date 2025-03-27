@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <footer className="rounded-md w-[96%] shadow bg-neutral-700">
+        <footer className="rounded-md w-[96%] rounded-md shadow bg-neutral-700">
             <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
                 <span className="text-sm sm:text-center text-gray-400">© {new Date().getFullYear()} 
                     <a href="https://chessv.netlify.app/" className="hover:underline"> 

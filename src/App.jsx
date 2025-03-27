@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import ProjectsVault from './components/ProjectsVault'
 import Footer from "./components/Footer"
 import MotionImagesComponent from './components/MotionImageGlsl/MotionImagesComponent.jsx'
-import CutsAnimation from './components/CutsAnimation.jsx'
-import ProjectsAnimation from './components/ProjectsAnimation.jsx'
 import LocomotiveScroll from 'locomotive-scroll'
-import ProjectCard from './components/ProjectCard/ProjectCard.jsx'
+import { Route, Routes } from 'react-router-dom'
+import AllCards1 from './components/ProjectCard2/AllCards1.jsx'
+import AllCards2 from './components/ProjectCard2/AllCards2.jsx'
 
 export default function App() {
   
@@ -15,15 +14,10 @@ export default function App() {
 
   return (
     <div className='relative w-[99.9%] flex flex-col bg-zinc-950'>
-      <div className='relative '>
-        <CutsAnimation/>
-      </div>
-      <div className='relative'>
-        <ProjectsAnimation/>
-      </div>
-      <div className='relative z-[999999]'>
-        <ProjectCard/>
-      </div>
+      <Routes>
+        <Route path="/" element={<AllCards1/>} />
+        <Route path="/designs" element={<AllCards2/>} />
+      </Routes>
       <MotionImagesComponent/>
       <div className='flex justify-center items-center mb-4'>
         <Footer/>
