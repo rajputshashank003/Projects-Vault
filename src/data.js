@@ -61,9 +61,16 @@ export const data = [
     link : "https://awm1.netlify.app",
     description : "A sleek weather web app with interactive maps, allowing users to explore and get real-time weather updates by tapping anywhere on the map or by search.",
     small_description : "A sleek weather web app with interactive maps."
-  }
+  },
+  {
+    img : "/boat_web_design.png",
+    title : "Boat Design",
+    link : "https://bldesign.vercel.app",
+    description : "This website is inspired by Boat website",
+    small_description : "This website is inspired by Boat website",
+  },
 ]
 
 export const fullstack = [0,1,2,3];
 export const web3 = [4,5];
-export const design = [6,7,8];
+export const design = [6,7,8,9];
