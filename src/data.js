@@ -69,8 +69,15 @@ export const data = [
     description : "This website is inspired by Boat website",
     small_description : "This website is inspired by Boat website",
   },
+  {
+    img : "/animatedcardspage.png",
+    title : "Boat Design",
+    link : "https://animatedcardspage.vercel.app",
+    description : "Multiple cards with animated design",
+    small_description : "Multiple cards with animated design",
+  },
 ]
 
 export const fullstack = [0,1,2,3];
 export const web3 = [4,5];
-export const design = [6,7,8,9];
+export const design = [6,7,8,9,10];
