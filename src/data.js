@@ -76,8 +76,22 @@ export const data = [
     description : "Multiple cards with animated design",
     small_description : "Multiple cards with animated design",
   },
+  {
+    img : "/ScrollRunCar.png",
+    title : "Car Scroll run",
+    link : "https://runningcarscroll.vercel.app",
+    description : "Run car on scroll",
+    small_description : "Run car on scroll",
+  },
+  {
+    img : "/interiordesignweb.png",
+    title : "Interior Design web",
+    link : "https://interiordesignweb.vercel.app",
+    description : "Interior designer website",
+    small_description : "Interior designer website",
+  },
 ]
 
 export const fullstack = [0,1,2,3];
 export const web3 = [4,5];
-export const design = [6,7,8,9,10];
+export const design = [6,7,8,9,10,11,12];
