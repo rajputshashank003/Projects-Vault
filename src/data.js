@@ -90,8 +90,15 @@ export const data = [
     description : "Interior designer website",
     small_description : "Interior designer website",
   },
+  {
+    img : "/clothing-web-animation.png",
+    title : "Clothing website design",
+    link : "https://clothing-web-animation.vercel.app",
+    description : "Interior website design",
+    small_description : "Clothing website design",
+  }
 ]
 
 export const fullstack = [0,1,2,3];
 export const web3 = [4,5];
-export const design = [6,7,8,9,10,11,12];
+export const design = [6,7,8,9,10,11,12,13];
