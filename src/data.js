@@ -96,9 +96,31 @@ export const data = [
     link : "https://clothing-web-animation.vercel.app",
     description : "Interior website design",
     small_description : "Clothing website design",
-  }
+  },
+  {
+    img : "/scroll-icon.png",
+    title : "Icon scroll aniamtion",
+    link : "https://bill-animation.vercel.app",
+    description : "Icon scroll trigger animation design",
+    small_description : "Icon scroll trigger animation design",
+  },
+  {
+    img : "/bill-animation.png",
+    title : "Bill animation design",
+    link : "https://bill-animation.vercel.app",
+    description : "Bill animation design",
+    small_description : "Bill animation design",
+  },
+  {
+    img : "/animatedbutton1.png",
+    title : "Successful animation design",
+    link : "https://animatedbutton1.vercel.app",
+    description : "Successful animation design",
+    small_description : "Successful animation design",
+  },  
 ]
 
 export const fullstack = [0,1,2,3];
 export const web3 = [4,5];
 export const design = [6,7,8,9,10,11,12,13];
+export const web_components = [14,15,16];
