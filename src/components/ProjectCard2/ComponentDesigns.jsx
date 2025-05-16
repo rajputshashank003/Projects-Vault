@@ -1,5 +1,4 @@
 import React from 'react'
-import { data } from '../../data'
 import DesignTitle from './DesignTitle'
 import DesignCard from "./DesignCard";
 import { useNavigate } from 'react-router-dom';
@@ -24,8 +23,8 @@ const ComponentDesigns = () => {
                     </Magnet>
                 </div>
                 {
-                    web_components.map( ind => (
-                        <DesignCard pr={data[ind]} key={ind} />
+                    web_components.map( ( data, ind ) => (
+                        <DesignCard pr={data} key={ind} />
                     ))
                 }
             </div>

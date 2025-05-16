@@ -1,5 +1,5 @@
 import React from 'react'
-import { data, web3 } from '../../data'
+import { web3 } from '../../data'
 import DesignTitle from './DesignTitle'
 import DesignCard from "./DesignCard";
 import { useNavigate } from 'react-router-dom';
@@ -23,8 +23,8 @@ const WebThree = () => {
                     </Magnet>
                 </div>
                 {
-                    web3.map( ind => (
-                        <DesignCard pr={data[ind]} key={ind} />
+                    web3.map( (data , ind) => (
+                        <DesignCard pr={data} key={ind} />
                     ))
                 }
             </div>
