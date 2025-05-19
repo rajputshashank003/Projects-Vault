@@ -133,5 +133,19 @@ export const web_components = [
         link : "https://quick-delete-interaction.vercel.app",
         description : "Quick delete interaction animation design",
         small_description : "Quick delete interaction animation design",
+    },
+    {
+        img : "/imghoverscroll.png",
+        title : "Image hover scroll ",
+        link : "https://imghoverscroll.vercel.app",
+        description : "Image hover scroll effect design",
+        small_description : "Image hover scroll effect design",
+    },
+    {
+        img : "/imgscroll.png",
+        title : "Image scroll ",
+        link : "https://imgscroll.vercel.app",
+        description : "Image scroll effect design",
+        small_description : "Image scroll effect design",
     }
 ];
