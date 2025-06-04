@@ -147,5 +147,19 @@ export const web_components = [
         link : "https://imgscroll.vercel.app",
         description : "Image scroll effect design",
         small_description : "Image scroll effect design",
+    },
+    {
+        img : "/animatedcounter.png",
+        title : "Animated counter",
+        link : "https://animatedcounter.vercel.app",
+        description : "Animated Counter effect design",
+        small_description : "Animated Counter effect design",
+    },
+    {
+        img : "/limiteddiscount.png",
+        title : "Limited Discount ",
+        link : "https://limiteddiscount.vercel.app",
+        description : "Limited Discount effect design",
+        small_description : "Limited Discount effect design",
     }
 ];
