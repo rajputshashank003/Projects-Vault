@@ -19,3 +19,36 @@
   overflow: scroll;
   scrollbar-width: none;
 }
+
+@font-face {
+    font-family: 'f1';
+    src: url('/Fonts/GuthenBloots.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'f2';
+    src: url('/Fonts/ModernEra-ExtraBold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'f3';
+    src: url('/Fonts/ModernEra-Medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'f4';
+    src: url('/Fonts/ModernEra-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'f5';
+    src: url('/Fonts/Recoleta-Black.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'f6';
+    src: url('/Fonts/Recoleta-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'oddo';
+    src: url('/Fonts/oddo.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'f7';
+    src: url('/Fonts/Recoleta-Black.woff2') format('woff2');
+}
