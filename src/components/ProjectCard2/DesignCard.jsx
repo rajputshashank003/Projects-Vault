@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const DesignCard = ({ pr}) => {
     return (
         <Link to={pr.link} >
-            <div className='h-60 w-60 relative rounded-xl cursor-pointer group overflow-hidden'>
+            <div className='max-sm:h-[150px] max-sm:w-[130px] h-60 w-60 relative rounded-xl cursor-pointer group overflow-hidden'>
                 <img src={pr.img} className='group-hover:h-full group-hover:w-full h-[120%] w-[120%] object-cover duration-300' alt="" />
                 <div className='bg-opacity-0 bg-gradient-to-b duration-300 from-transparent to-zinc-950 h-full w-full absolute -bottom-full group-hover:bottom-0'>
                     <div className="name absolute bottom-20 left-10 uppercase text-[1.2rem] font-bold text-zinc-200">
