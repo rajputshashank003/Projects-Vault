@@ -11,7 +11,7 @@ const AppBar = () => {
     const par = useRef(null);
 
     return (
-        <div ref={par} className='sm:mx-[5%] max-sm:mx-[8px] h-[42px] md:h-[62px] shadow-[0px_0px_12px] shadow-red-800/30 sticky top-[12px] z-[999] rounded-[12px] overflow-hidden'>
+        <div ref={par} className='sm:mx-[5%] max-sm:mx-[8px] h-[42px] md:h-[62px] shadow-[0px_0px_4px] shadow-red-800/30 sticky top-[32px] sm:top-[12px] z-[999] rounded-[12px] overflow-hidden'>
             <div className="absolute top-0 left-0 h-[80%] w-12 bg-red-700"></div>
             <div className='h-full px-[12px] md:px-[22px] items-center bg-black/30 backdrop-blur-[32px] flex flex-row space-around gap-[10px] md:gap-[42px] sm:gap-[22px] '>
                 {menu.map((val) => (

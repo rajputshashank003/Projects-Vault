@@ -12,7 +12,7 @@ export default function App() {
     }, []);
     return (
         <BrowserRouter>
-            <div className='relative w-full py-[32px] flex flex-col bg-gradient-to-t from-black to-zinc-900'>
+            <div className='relative w-screen py-[32px] flex flex-col bg-gradient-to-t from-black to-zinc-900'>
                 <div className='flex flex-col w-full justify-center items-center mb-4'>
                     <AppBar />
                     <RoutesComponent />
