@@ -48,6 +48,13 @@ export const web3 = [
 
 export const design = [
     {
+        img: "/tbh1.png",
+        title: "TBH",
+        link: "https://tbh1.vercel.app",
+        description: "Inspired from Tbh.us",
+        small_description: "Inspired from tbh.us",
+    },
+    {
         img : "/yourblogs.jpg",
         title : "Your Blogs",
         link : "https://yourblogs1.vercel.app",
