@@ -26,6 +26,13 @@ export const fullstack = [
         link : "https://1airbnb.vercel.app",
         description : "Welcome to the Airbnb Clone project, a web application built to replicate key features of Airbnb using EJS for the frontend, Node.js and Express.js for the backend, MongoDB for the database, Cloudinary for saving image data and Bing Maps API to display listing locations.",
         small_description : "Airbnb Clone project, a web application built to replicate key features of Airbnb."
+    },
+    {
+        img: "/bharatpups.png",
+        title: "Bharatpups",
+        link: "https://Bharatpups.vercel.app",
+        description: "Bharatpups is a dog selling website where i developed admin and user dashboard.",
+        small_description: "Bharatpups is a dog selling website where i developed admin and user dashboard.",
     }
 ];
 
