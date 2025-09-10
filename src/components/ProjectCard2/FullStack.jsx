@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card';
 import { fullstack } from '../../data';
-import MotionImagesComponent from '../MotionImageGlsl/MotionImagesComponent.jsx'
+// import MotionImagesComponent from '../MotionImageGlsl/MotionImagesComponent.jsx'
 
 const FullStack = () => {
 
@@ -15,7 +15,7 @@ const FullStack = () => {
                     <Card pr={data} key={ind} />
                 ))}
             </div>
-            <MotionImagesComponent/>
+            {/* <MotionImagesComponent/> */}
         </div>
     )
 }

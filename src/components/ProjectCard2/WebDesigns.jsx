@@ -17,7 +17,7 @@ const WebDesigns = () => {
             <div style={{ fontFamily: 'f1, serif' }} className="text-[42px] text-center mt-[32px] text-white md:text-[62px]">
                 Web Designs
             </div>
-            <div className='min-h-screen justify-center items-start p-[12px] md:p-10 flex flex-wrap max-sm:justify-around md:gap-10 w-full'>
+            <div className='min-h-screen justify-center items-start p-[12px] md:p-10 flex flex-wrap max-sm:justify-around gap-[18px] md:gap-10 w-full'>
                 {
                     design.map( (data, ind) => (
                         <DesignCard pr={data} key={ind} />

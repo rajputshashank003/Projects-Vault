@@ -17,7 +17,7 @@ const WebThree = () => {
             <div style={{ fontFamily: 'f1, serif' }} className="text-[42px] text-center mt-[32px] text-white md:text-[62px]">
                 Blockchain
             </div>
-            <div className='min-h-screen justify-center items-start p-[12px] md:p-10 flex flex-wrap gap-[12px] md:gap-10 w-full'>
+            <div className='min-h-screen justify-center items-start p-[12px] md:p-10 flex flex-wrap gap-[18px] md:gap-10 w-full'>
                 {
                     web3.map( (data , ind) => (
                         <DesignCard pr={data} key={ind} />
