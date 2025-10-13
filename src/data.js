@@ -121,6 +121,13 @@ export const design = [
 
 export const web_components = [
     {
+        img: "/imgcard1.png",
+        title: "Image card",
+        link: "https://imgcard1.vercel.app",
+        description: "Image card microinteration",
+        small_description: "Image card microinteration",
+    },
+    {
         img : "/scroll-icon.png",
         title : "Icon scroll aniamtion",
         link : "https://bill-animation.vercel.app",
