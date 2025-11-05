@@ -130,7 +130,7 @@ export const web_components = [
     {
         img : "/scroll-icon.png",
         title : "Icon scroll aniamtion",
-        link : "https://bill-animation.vercel.app",
+        link: "https://scroll-icon.vercel.app/",
         description : "Icon scroll trigger animation design",
         small_description : "Icon scroll trigger animation design",
     },
