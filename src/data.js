@@ -121,6 +121,13 @@ export const design = [
 
 export const web_components = [
     {
+        img: "/feedback-animated-box.png",
+        title: "Feedback animated box",
+        link: "https://feedback-animated-box.vercel.app",
+        description: "Feedback animated box microinteration",
+        small_description: "Feedback animated box microinteration",
+    },
+    {
         img: "/imgcard1.png",
         title: "Image card",
         link: "https://imgcard1.vercel.app",
